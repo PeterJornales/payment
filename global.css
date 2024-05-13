@@ -3,6 +3,15 @@ body {
   line-height: normal;
 }
 
+html, body {
+  height: 100%;  /* Makes sure your page takes up the full height */
+  width: 100%;   /* Ensures the page takes full width */
+  margin: 0;     /* Removes default margin */
+  padding: 0;    /* Removes default padding */
+  overflow: hidden; /* Prevents scrollbars if you don't want any */
+}
+
+
 :root {
   /* fonts */
   --font-inter: Inter;
