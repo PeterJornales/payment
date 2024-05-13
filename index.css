@@ -7,6 +7,15 @@
   top: 0;
   transform: scale(1.047);
 }
+
+html, body {
+  height: 100%;  /* Makes sure your page takes up the full height */
+  width: 100%;   /* Ensures the page takes full width */
+  margin: 0;     /* Removes default margin */
+  padding: 0;    /* Removes default padding */
+  overflow: hidden; /* Prevents scrollbars if you don't want any */
+}
+
 .wrapper-grad {
   position: absolute;
   top: -104px;
